@@ -16,10 +16,9 @@ local cur_column = "%v"
 local percentage = "%P"
 
 user1_hl = {}
-user1_hl["ctermfg"] = "white"
-user1_hl["ctermbg"] = "white"
+user1_hl["fg"] = "#7c8a43"
+user1_hl["bg"] = "#7c8a43"
 vim.api.nvim_set_hl(0, "User1", user1_hl)
-vim.cmd("hi StatusLine ctermfg=White")
 
 local hi_norm = "%#StatusLine#"
 local hi_hide = "%#User1#"
